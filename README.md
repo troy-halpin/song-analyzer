@@ -4,7 +4,7 @@ Currently, `index.ts` is a script that hits [Sonic API's analyze/key endpoint](h
 
 ## How to execute
 
-With Deno installed, run `deno --allow-read --allow-net index.ts` from root
+With Deno installed, run `deno --allow-net index.ts` from root
 
 ## TODO
 
