@@ -28,6 +28,3 @@ async function analyzeKey(taskUrl: string, parameters: SonicApiParameters): Prom
 }
 const data = await analyzeKey(taskUrl, parameters)
 console.log(JSON.stringify(data, null, 4))
-
-
-// console.log(decodedData)
