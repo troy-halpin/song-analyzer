@@ -1,2 +1,2 @@
 .env
-./server/config.ts
+config.ts
