@@ -27,4 +27,5 @@ async function analyzeKey(taskUrl: string, parameters: SonicApiParameters): Prom
   return response.json();
 }
 const data = await analyzeKey(taskUrl, parameters)
-console.log(JSON.stringify(data, null, 4))
+// const JSONdata = JSON.stringify(data, null, 4)
+console.log(`the song "Mary Had A Little Lamb"'s key is: ${data.tonart_result.key}`)
